@@ -1,4 +1,5 @@
 import Browser from "./Browser";
+import GptSearch from "./GptSearch";
 import Login from "./Login";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
@@ -20,7 +21,7 @@ const Body = () => {
   ]);
 
   return (
-    <div>
+    <div className="bg-black">
       <RouterProvider router={appRouter} />
     </div>
   );
